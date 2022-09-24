@@ -1,0 +1,15 @@
+ PUT https://sandbox.gerencianet.com.br/v1/carnet/1691315 
+ ContentType: Application/json
+ Authorization: Bearer 4575ee38-449e-4ce9-b7ce-ce70c7ef96a2
+
+
+POST https://sandbox.gerencianet.com.br/v1/authorize
+Content-Type: application/json 
+Authorization: Basic Q2xpZW50X0lkX2I5NWFiYjM5MWRmOTVhZGYwYzBmMGFjZGExNzIxZTg3NjgyZTA5OWQ6Q2xpZW50X1NlY3JldF9iZmFhZmNiOTkyMTJiMTE1MjhlMTY3YmQ4MzRjMjYyMTJkYjhiOWUx' 
+
+{
+    "grant_type": "client_credentials"
+}
+
+
+

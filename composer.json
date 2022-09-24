@@ -1,0 +1,9 @@
+{
+  "require": {
+    "monolog/monolog": "^3.2",
+    "gerencianet/gerencianet-sdk-php": "^4.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  }
+}
